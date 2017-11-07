@@ -12,7 +12,7 @@ gem 'puma', '~> 3.7'
 gem 'rack-cors', require: 'rack/cors'
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pry-byebug'
   gem 'coveralls', require: false
   gem 'factory_bot_rails'
   gem 'rspec-rails'
